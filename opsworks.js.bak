@@ -1,0 +1,11 @@
+exports.db = {"adapter":"mysql",
+"database":"photalbum",
+"password":"zfarf2",
+"port":3306,
+"reconnect":true,
+"username":"admin",
+"data_source_provider":"rds",
+"host":"opsinstance.ccdvt3hwog1a.us-east-1.rds.amazonaws.com"
+}
+exports.memcached = {"port":11211,
+"host":null}
